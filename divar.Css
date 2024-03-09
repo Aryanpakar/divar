@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .gh{
+width: 5px;
+height: 24px;
+background-color: black;
+position: relative;
+right: 30px;
+top: -10px;
+} */
+
+.header{
+    display: flex;
+    box-shadow: 0 0 5px 1px rgb(189, 187, 187);
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    right: 0px;
+    background-color: white;
+}
+
+.member{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+
+.member-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 5%;
+}
+
+.Register{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+input{
+    padding: 5px 100px;
+    border: none;
+    background-color:aqua;
+    border-radius: 10px;
+    font-size: 30px;
+    text-indent: -100px;
+}
+
+#main-content{
+    /* display: flex; */
+    /* align-items: center; */
+    margin: 50px;
+}
+
+.pic{
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+
+
+
+.item{
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* align-content: center; */
+    margin-bottom: 20px;
+}
+
+
+
+
+p{
+    font-size: 15px;
+    margin-right: 20px;
+    color: rgb(131, 129, 129);
+    
+}
+
+#sidebar{
+    padding: 20px 50px;
+    
+}
